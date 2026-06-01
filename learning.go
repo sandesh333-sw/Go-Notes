@@ -2,6 +2,20 @@ package main
 
 import "fmt"
 
+// constants
+const HOST string = "localhost"
+
+// enums
+const (
+	Sunday = iota + 1
+	Monday
+	Tuesday
+	Wednesday
+	Thursday
+	Friday
+	Saturday
+)
+
 func main() {
 	//Simple descriptions of string and number
 	fmt.Printf("Hello World \n")
@@ -33,4 +47,10 @@ func main() {
 	//if you want to declare and initialize a variable this is the prefered option :=
 	email := "test@com"
 	fmt.Println(email)
+
+	//Constatnts
+	fmt.Println(HOST)
+
+	//Enums
+	fmt.Println(Sunday)
 }
