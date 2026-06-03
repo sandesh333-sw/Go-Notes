@@ -25,4 +25,21 @@ func main() {
 	} else {
 		fmt.Println("Number is less than 30")
 	}
+
+	fmt.Println("------------------")
+
+	// switch statement
+
+	day := "Monday"
+	fmt.Println("Today is ", day)
+
+	switch day {
+	case "Sunday", "Saturday":
+		fmt.Println("Weekend no work")
+	case "Monday", "Tuesday":
+		fmt.Println("Work days")
+	default:
+		fmt.Println("Midweek")
+	}
+
 }
