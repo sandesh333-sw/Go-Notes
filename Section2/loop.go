@@ -15,4 +15,14 @@ func main() {
 		fmt.Println(k)
 		k--
 	}
+
+	fmt.Println("----------------------")
+
+	// if else
+	tmp := 22
+	if tmp > 30 {
+		fmt.Println("Greater than 30")
+	} else {
+		fmt.Println("Number is less than 30")
+	}
 }
